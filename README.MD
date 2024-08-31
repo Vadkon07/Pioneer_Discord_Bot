@@ -28,10 +28,11 @@ In the beginning I wanted to create a "All rights reserved" bot, but then I unde
     5. Confirm by clicking Yes, do it!.
     6. Copy the Token. This will be used to authenticate your bot. It;s better to write down him somewhere.
     7. Invite your bot on servers using the following invite:
-  		https://discord.com/oauth2/authorize?&client_id=YOUR_APPLICATION_ID_HERE&scope=bot+applications.commands&permissions=PERMISSIONS (
-  		Replace `YOUR_APPLICATION_ID_HERE` with the application ID and replace `PERMISSIONS` with the required permissions
-  		your bot needs that it can be get at the bottom of a this
-  		page https://discord.com/developers/applications/YOUR_APPLICATION_ID_HERE/bot)
+
+    https://discord.com/oauth2/authorize?&client_id=YOUR_APPLICATION_ID_HERE&scope=bot+applications.commands&permissions=PERMISSIONS (
+    Replace `YOUR_APPLICATION_ID_HERE` with the application ID and replace `PERMISSIONS` with the required permissions your bot needs that it can be get at the bottom of a this page:
+
+     https://discord.com/developers/applications/YOUR_APPLICATION_ID_HERE/bot)
 
 
 **Step 2: Set Up Your Project**
@@ -46,7 +47,7 @@ In the beginning I wanted to create a "All rights reserved" bot, but then I unde
 
     **npm install discord.js**
 
-Step 3: Run Your Bot
+**Step 3: Run Your Bot**
 
     In your terminal, run the following command to start your bot:
 
@@ -57,7 +58,7 @@ Step 3: Run Your Bot
     Go to your Discord server and type p!ping in any channel where the bot has access. The bot should respond with Pong! and ping in ms.
 
 
-## Usage
+## Important
 
 Open file **config.json** and insert inside your token and prefix, it's necessary for setup.
 
