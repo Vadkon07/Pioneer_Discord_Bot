@@ -14,20 +14,6 @@ I don't have any experience with JavaScript, and at all created this bot just fo
 
 In the beginning I wanted to create a "All rights reserved" bot, but then I understood that it will be better to develope it together with you, my friends. Also I found that I have to keep my laptop turned on and connected to Internet 24/7, so I'm not ready for it because my laptop will eat a lot of electricity and at all I don't have Wi-Fi and have to live only with mobile hotspot, and if I have to go somewhere I will have to keep my laptop + phone with myself, but it's not possible because my laptop doesn't has any battery and works jsut as a PC. I think that for you all it will be easier to run server on your own computers, just because it's easier and faster.
 
-## How to install and run it
-
-- Clone/Download the repository
-  - To clone it and get the updates you can definitely use the command
-    `git clone`
-- Create a Discord bot [here](https://discord.com/developers/applications)
-- Get your bot token
-- Invite your bot on servers using the following invite:
-  https://discord.com/oauth2/authorize?&client_id=YOUR_APPLICATION_ID_HERE&scope=bot+applications.commands&permissions=PERMISSIONS (
-  Replace `YOUR_APPLICATION_ID_HERE` with the application ID and replace `PERMISSIONS` with the required permissions
-  your bot needs that it can be get at the bottom of a this
-  page https://discord.com/developers/applications/YOUR_APPLICATION_ID_HERE/bot)
-
-
 **Before you begin, ensure you have the following installed:**
 
     Node.js (v16.11.0 or higher)
@@ -36,15 +22,21 @@ In the beginning I wanted to create a "All rights reserved" bot, but then I unde
 **Step 1: Create a Discord Bot Account**
 
     1. Go to the Discord Developer Portal.
-    2. Click on New Application.
+    2. Click on New Application [here](https://discord.com/developers/applications)
     3. Name your application and click Create.
     4. Navigate to the Bot tab and click Add Bot.
     5. Confirm by clicking Yes, do it!.
-    6. Copy the Token. This will be used to authenticate your bot. It;s better to write down him somwhere.
+    6. Copy the Token. This will be used to authenticate your bot. It;s better to write down him somewhere.
+    7. Invite your bot on servers using the following invite:
+  		https://discord.com/oauth2/authorize?&client_id=YOUR_APPLICATION_ID_HERE&scope=bot+applications.commands&permissions=PERMISSIONS (
+  		Replace `YOUR_APPLICATION_ID_HERE` with the application ID and replace `PERMISSIONS` with the required permissions
+  		your bot needs that it can be get at the bottom of a this
+  		page https://discord.com/developers/applications/YOUR_APPLICATION_ID_HERE/bot)
+
 
 **Step 2: Set Up Your Project**
 
-    At first open a folder with this project, and then:
+    At first **clone** + **open** a folder with this project, and then:
 
     Initialize a new Node.js project:
 
