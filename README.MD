@@ -1,72 +1,69 @@
-# Small story about this project...
+# Project Story
 
-During 2020-2023 years I was a very active user of Discord. I just liked to communicate with other people and was using him as a main messaging app on all of my devices. My first money I earned in Discord (I was creating logotypes for other people and they were paying for me, and also they were buying roles on my servers), my "immigration" to English language was started from Discord. Discord did a lot of good life-changing things for me, and one of them it's my first lines of code. 
+Between 2020 and 2023, Discord became a significant part of my life. It was more than just a messaging app; it was where I first earned money through creating logotypes and selling roles on my servers. It marked the beginning of my journey into the English language and, more importantly, my initial foray into coding.
 
-Some years ago I was zero in coding. I even didn't know just names of coding languages, but still wanted to code. I remember that I downloaded something in a kind of bot creator app for my Android phone, and with a very simple coding language (app's own coding language) I was trying to create a good-enough quality bot. I created maybe 2-3 bots, and they were really nice, but I always wanted to do another thing - real Discord bot, on JavaScript.
+Initially, I knew nothing about coding— not even the names of programming languages. My journey began with a bot creator app on my Android phone. Though the coding language was simplistic, I managed to create a few basic bots. My ambition was to develop a more sophisticated Discord bot using JavaScript.
 
-With this code I just want to say a big Thanks to developers of Discord, because in Discord I spent really a lot of time of my life, and will never forget all these moments which I spent with my best friends. And I think that I got interest in coding only by Discord, because he was first who opened coding to me.
+This project is my way of expressing gratitude to the Discord developers. Discord has profoundly impacted my life, introducing me to coding and providing countless memorable moments with friends.
 
 **Thank you, Discord and your developers...**
 
 ## Description
 
-I don't have any experience with JavaScript, and at all created this bot just for fun. I think that it will be a good idea to build a first really big OpenSource bot our servers, right? For now it has only basic functions, but even they are very useful for me.
+I started this bot as a fun project with no prior experience in JavaScript. The aim is to develop an OpenSource bot for our servers. Currently, it includes basic functions, but even these have proven quite useful to me.
 
-In the beginning I wanted to create a "All rights reserved" bot, but then I understood that it will be better to develope it together with you, my friends. Also I found that I have to keep my laptop turned on and connected to Internet 24/7, so I'm not ready for it because my laptop will eat a lot of electricity and at all I don't have Wi-Fi and have to live only with mobile hotspot, and if I have to go somewhere I will have to keep my laptop + phone with myself, but it's not possible because my laptop doesn't has any battery and works jsut as a PC. I think that for you all it will be easier to run server on your own computers, just because it's easier and faster.
+Initially, I intended to create a bot solely for personal use, but I realized it would be better to develop it collaboratively with you, my friends. Due to practical constraints—such as needing to keep my laptop running 24/7, dealing with high electricity consumption, and managing a mobile hotspot—it's more feasible for you to run the server on your own systems.
 
-**Before you begin, ensure you have the following installed:**
-
-    Node.js (v16.11.0 or higher)
-    npm (comes with Node.js)
+**Before You Begin, Ensure You Have:**
+- Node.js (v16.11.0 or higher)
+- npm (comes with Node.js)
 
 **Step 1: Create a Discord Bot Account**
-
-    1. Go to the Discord Developer Portal.
-    2. Click on New Application [here](https://discord.com/developers/applications)
-    3. Name your application and click Create.
-    4. Navigate to the Bot tab and click Add Bot.
-    5. Confirm by clicking Yes, do it!.
-    6. Copy the Token. This will be used to authenticate your bot. It;s better to write down him somewhere.
-    7. Invite your bot on servers using the following invite:
-
-    https://discord.com/oauth2/authorize?&client_id=YOUR_APPLICATION_ID_HERE&scope=bot+applications.commands&permissions=PERMISSIONS (
-    Replace `YOUR_APPLICATION_ID_HERE` with the application ID and replace `PERMISSIONS` with the required permissions your bot needs that it can be get at the bottom of a this page:
-
-     https://discord.com/developers/applications/YOUR_APPLICATION_ID_HERE/bot)
-
+1. Go to the [Discord Developer Portal](https://discord.com/developers/applications).
+2. Click on `New Application`.
+3. Name your application and click `Create`.
+4. Navigate to the `Bot` tab and click `Add Bot`.
+5. Confirm by clicking `"Yes, do it!"`.
+6. Copy the Token. You'll need this to authenticate your bot, so keep it secure.
+7. Invite your bot to servers using the following URL:
+```console
+https://discord.com/oauth2/authorize?&client_id=YOUR_APPLICATION_ID_HERE&scope=bot+applications.commands&permissions=PERMISSIONS
+```
+Replace `YOUR_APPLICATION_ID_HERE` with your application's ID and `PERMISSIONS` with the necessary permissions for your bot, which you can find at the bottom of this page:
+```
+https://discord.com/developers/applications/YOUR_APPLICATION_ID_HERE/bot
+```
 
 **Step 2: Set Up Your Project**
-
-    At first **clone** + **open** a folder with this project, and then:
-
-    Initialize a new Node.js project:
-
-    **npm init -y**
-
-    Install the discord.js library:
-
-    **npm install discord.js**
+1. Clone and open the folder containing this project.
+2. Initialize a new Node.js project:
+```console
+npm init -y
+```
+3. Install the `discord.js` library:
+```console
+npm install discord.js
+```
 
 **Step 3: Run Your Bot**
+1. In your terminal, run:
+```bash
+node index.js # (that's like a 'python main.py')
+```
+You should see `"Bot is online!"` in your terminal.
 
-    In your terminal, run the following command to start your bot:
-
-    **node index.js** (that's like a 'python main.py')
-
-    You should see Bot is online! in your terminal.
-
-    Go to your Discord server and type p!ping in any channel where the bot has access. The bot should respond with Pong! and ping in ms.
+2. Go to your Discord server and type `p!ping` in any channel where the bot has access. The bot should respond with "Pong!" and display the ping in milliseconds.
 
 
 ## Important
 
-Open file **config.json** and insert inside your token and prefix, it's necessary for setup.
+Open file `config.json` and insert inside your token and prefix, it's necessary for setup.
 
 ## Issues or Questions
 
-If you have any issues or questions of how to code a specific command, you can join my Discord server [here](https://discord.gg/UeK8U7dD). Of course I'm not very active user of Discord, but maybe we can create a nice server ahaha.
+If you encounter any issues or have questions about coding specific commands, join my Discord server [here](https://discord.gg/UeK8U7dD). While I'm not always active, we might still create a vibrant community together!
 
 ## To-Do list
 
-- [ ] Add more commands as kick, ban/unban, say, mute/unmute etc.
-- [ ] Better README
+- [ ] Add more commands (e.g., kick, ban/unban, say, mute/unmute, etc.)
+- [X] Improve the README
